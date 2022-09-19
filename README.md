@@ -1,11 +1,17 @@
-# fedora - need to input password
+# fedora
+# update
 ```
 sudo dnf update -y
+```
+# repositories
+```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+# flatpak
+```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
-
 # essential apps
 ```
 sudo dnf install gnome-tweaks gnome-extensions-app -y
