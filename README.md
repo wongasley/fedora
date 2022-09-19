@@ -1,7 +1,18 @@
 # fedora
+# change download speed
+```
+sudo nano /etc/dnf/dnf.conf
+```
+#paste this on the dnf.conf file
+```
+fastestmirror=true
+deltarpm=true
+max_parallel_downloads=10
+```
 # update
 ```
 sudo dnf update -y
+sudo reboot
 ```
 # repositories
 ```
