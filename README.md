@@ -6,7 +6,7 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-# esstial apps
+# essential apps
 ```
 sudo dnf install gnome-tweaks gnome-extensions-app -y
 sudo dnf install vlc -y
