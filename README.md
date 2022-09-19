@@ -7,6 +7,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 
 # esstial apps
+```
 sudo dnf install gnome-tweaks gnome-extensions-app -y
 sudo dnf install vlc -y
 sudo dnf install python3 python3-pip -y
