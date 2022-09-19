@@ -3,7 +3,7 @@
 ```
 sudo nano /etc/dnf/dnf.conf
 ```
-#paste this on the dnf.conf file
+# paste this on the dnf.conf file
 ```
 fastestmirror=true
 deltarpm=true
