@@ -27,5 +27,18 @@ sudo ln -s /var/lib/snapd/snap /snap
 # essential apps
 ```
 sudo dnf install gnome-tweaks gnome-extensions-app vlc python3 python3-pip akmod-nvidia xorg-x11-drv-nvidia-cuda -y
-
+sudo snap install bitwarden
+sudo snap install krita
+sudo snap install code --classic
+sudo snap install gimp
+sudo snap install spotify
+sudo snap install telegram-desktop
+sudo snap install brave
+sudo snap install shotcut --classic
+sudo snap install obs-studio
+sudo snap install blender --classic
+sudo snap install qbittorrent-arnatious
+sudo snap install shotcut --classic
+sudo snap install discord
+sudo dnf module install nodejs:16
 ```
