@@ -41,4 +41,9 @@ sudo snap install qbittorrent-arnatious
 sudo snap install shotcut --classic
 sudo snap install discord
 sudo dnf module install nodejs:16
+dnf install kernel-devel
+git clone https://github.com/RinCat/RTL88x2BU-Linux-Driver.git
+cd RTL88x2BU-Linux-Driver/
+make
+sudo make install
 ```
